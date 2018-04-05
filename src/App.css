@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+body{
+
+    background-color: rgb(148, 219, 195);
+}
+
+h1{
+    color: blue;
+}
+h3{
+    color: palevioletred;
+    text-align: center;
+
+}
+form{
+
+    color: red;
+    text-align: center;
+}
+.Projects{
+    text-align: center;
+    color: cornflowerblue;
+}
