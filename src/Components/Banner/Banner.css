@@ -1,10 +1,16 @@
 .banner {
+<<<<<<< HEAD
   
 
   height: 500px;
   width: 100%;
   display: table;
   
+=======
+  height: 500px;
+  width: 100%;
+  display: table;
+>>>>>>> 720d2f9025f1fa091c8f15af9d871ce3152b2c9c
   background-image: url('../../Images/farm.JPG');
   background-size: cover;
   position: relative;
@@ -14,7 +20,11 @@
 .banner__mask {
   height: 100%;
   width: 100%;
+<<<<<<< HEAD
   background: rgba(0, 0, 0, 0.4);
+=======
+  background: rgba(0, 0, 0, 0.6);
+>>>>>>> 720d2f9025f1fa091c8f15af9d871ce3152b2c9c
 }
 
 .banner h1 {

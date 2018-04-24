@@ -48,6 +48,7 @@ class App extends Component {
   
     return (
       <div className="App">
+<<<<<<< HEAD
        
        <Route exact path="/" component={Home}/>
        <Header/>
@@ -55,6 +56,13 @@ class App extends Component {
        <AddProject addProject={this.handleAddProject.bind(this)}/>
        <Projects projects={this.state.projects} />
        <h2>Thank you!</h2>
+=======
+       <Header/>
+  
+       <AddProject addProject={this.handleAddProject.bind(this)}/>
+       <Projects projects={this.state.projects} />
+       <Route exact path="/" component={Home}/>
+>>>>>>> 720d2f9025f1fa091c8f15af9d871ce3152b2c9c
        
        
        
