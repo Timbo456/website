@@ -1,0 +1,29 @@
+.header {
+  background-image: url('../../Images/farm.JPG'); 
+  background-size: cover;
+}
+
+.header__mask {
+  background: rgba(255, 255, 255, 0.562);
+}
+
+.header__logo {
+  float: left;
+  height: 50px;
+  width: auto;
+}
+
+.header__container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.header__contactnumber {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    color: #53565D;
+}
+

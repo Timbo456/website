@@ -1,0 +1,29 @@
+.banner {
+  
+
+  height: 500px;
+  width: 100%;
+  display: table;
+  
+  background-image: url('../../Images/farm.JPG');
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.banner__mask {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.banner h1 {
+  position: absolute;
+  color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  font-size: 60px;
+  line-height: 60px;
+  transform: translateX(-50%) translateY(-50%);
+}
