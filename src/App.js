@@ -6,6 +6,8 @@ import AddProject from './Components/AddProject';
 import Banner from './Components/Banner/Banner';
 import Header from './Components/Header/Header';
 import Home from './Pages/Home/Home'
+// Added this to test it out
+import MenuBar from './Components/MenuBar/MenuBar';
 
 import './App.css';
 
@@ -48,8 +50,9 @@ class App extends Component {
   
     return (
       <div className="App">
-       
+       <MenuBar/>
        <Route exact path="/" component={Home}/>
+       
        <Header/>
        <br></br>
        <AddProject addProject={this.handleAddProject.bind(this)}/>
