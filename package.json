@@ -3,13 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-=======
-    "react": "^16.3.1",
-    "react-dom": "^16.3.1",
->>>>>>> 720d2f9025f1fa091c8f15af9d871ce3152b2c9c
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4"
@@ -19,13 +14,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-<<<<<<< HEAD
   },
   "main": "index.js",
   "author": "",
   "license": "ISC",
   "description": ""
-=======
-  }
->>>>>>> 720d2f9025f1fa091c8f15af9d871ce3152b2c9c
 }
