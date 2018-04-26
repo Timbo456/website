@@ -22,7 +22,7 @@ class Header extends Component {
                     <div className='header__shop-info__address'>364 Stuff St, Stuff, MA 33333</div>
                 </div>
           </div>
-          <MenuBar/>
+          {/* <MenuBar/> */}
         </div>
       </header>
     )
