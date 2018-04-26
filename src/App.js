@@ -51,7 +51,11 @@ class App extends Component {
     return (
       <div className="App">
 <<<<<<< HEAD
+<<<<<<< HEAD
        
+=======
+       <MenuBar/>
+>>>>>>> cd095828748dc00717edc1b81de2876c33ab78a4
 =======
        <MenuBar/>
 >>>>>>> cd095828748dc00717edc1b81de2876c33ab78a4
