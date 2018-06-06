@@ -51,7 +51,11 @@ class App extends Component {
   
     return (
       <div className="App">
+
+       
+
        <MenuBar/>
+
        <Route exact path="/" component={Home}/>
        
        <Header/>
