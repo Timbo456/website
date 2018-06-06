@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 
 import Projects from './Components/Projects';
 import AddProject from './Components/AddProject';
+import AddMap from './Components/AddMap';
 import Banner from './Components/Banner/Banner';
 import Header from './Components/Header/Header';
 import Home from './Pages/Home/Home'

@@ -8,15 +8,38 @@
 
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!-- Mapbox api test think for Parker -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
 
     <title>Sam G Taylor</title>
   </head>
 
   <body>
+      <div id='map' style='width: device-width; height: 500px;'></div>
+      <script>
+      mapboxgl.accessToken = 'pk.eyJ1Ijoic2FtdGF5bG9yIiwiYSI6ImNqaTNpOXd3eTE2bW0zcnBpOTZ3ZGJhankifQ.nxW7VIojgua2RGCItU3JxQ';
+      var map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v10'
+      });
+      </script>
+
+
+
     <!-- <img src='../src/Images/farm.JPG'> -->
+    <div id='map' class='use-all-space'></div>
+    
+
+
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
      <div id="root"></div>
+     <p></p>
+     
+     
+     
+     
   </body>
 </html>
