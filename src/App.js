@@ -62,7 +62,7 @@ class App extends Component {
        <br></br>
        <AddProject addProject={this.handleAddProject.bind(this)}/>
        <Projects projects={this.state.projects} />
-       <h2>Thank you!</h2>
+       <h2>Thanks!</h2>
        
        
        
